@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/britta-ui',
     themeConfig: {
         logo: '/assets/img/logo.png',
         nav: [

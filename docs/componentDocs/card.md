@@ -2,11 +2,11 @@
 卡片组件
 
 ### 实例
-<m-card imgSrc="/a.png" summary="test"/>
+<m-card imgSrc="/britta-ui/a.png" summary="test"/>
 
 ### 代码
 ```html
-<m-card imgSrc="/a.png" summary="test"/>
+<m-card imgSrc="/britta-ui/a.png" summary="test"/>
 ```
 
 ### Attributes

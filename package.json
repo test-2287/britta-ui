@@ -19,7 +19,8 @@
     "build:css": "npx gulp sass",
     "build": "yarn run build:js && yarn run build:css",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "britta-ui": "^0.1.0",
