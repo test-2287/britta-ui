@@ -1,24 +1,22 @@
-# britta-ui
+# britta-ui component demo lib
 
-## Project setup
-```
-yarn install
-```
+### start
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+#### 1.install
+``` bash
+npm i britta-ui
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### 2. use
+```javascript
+// import all
+// import css
+import 'britta-ui/dist/css/index.css';
+import BUI from 'britt-ui';
+Vue.use(BUI)
 
-### Lints and fixes files
+// import by use
+import 'britta-ui/dist/css/demo.css';
+import { Demo } from 'britta-ui';
+Vue.use(Demo)
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
